@@ -1,69 +1,29 @@
-# Prerequisites
-*.d
-
-# Object files
+# SEGGER Embedded Studio build artifacts
 *.o
+*.elf
+*.hex
 *.ko
 *.obj
-*.elf
-
-# Linker output
 *.ilk
+*.bin
 *.map
 *.exp
+Output/
+Debug/
+Release/
 
-# Precompiled Headers
-*.gch
-*.pch
+# SEGGER Embedded Studio project files and settings
+*.emProject.user
+*.emProject.local
+*.emProject.bak
+Solution.emSolution.user
+Solution.emSolution.local
+Solution.emSolution.bak
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# SEGGER J-Link related files (if applicable)
+JLinkSettings.ini
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
-
-# Executables
-**/Bin/
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
-
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
-
-
-# Kernel Module Compile Results
-*.mod*
-#*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
-
-#Other Configuration Files
-*.stg
-*.tdt
-#*.ini
-*.sx
-
-**/*/Standard/
-
-#visual studio
-**/.vs/
-**/Debug/
-
-#vsCode
-.vscode/
+# Other common exclusions
+.DS_Store
+Thumbs.db
+*.log
